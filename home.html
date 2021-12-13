@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+ <head>
+  <title> Weather Predictions </title>
+    </head>
+ <body>
+  <h1 style="text-align: center; font-family: Arial; background-color:LightBlue">Maritime Weather Prediction</h1>
+  <div style="padding:20px;">
+   <form action = "/predict/" method="post">
+     <div style="padding:10px; padding-left:325px">
+      <label for="Latitude">Latitude (Decimal) : </label>
+      <input type="text" id="Lat3" name="Lat3">
+     </div>
+     <div style="padding:10px;padding-left:325px">
+      <label for="Longitude">Longitude (Decimal) : </label>
+      <input type="text" id="Lon3" name="Lon3">
+     </div>
+     <div style="padding:10px;padding-left:325px">
+      <label for="Year">Year : </label>
+      <input type="text" id="Year" name="Year">
+     </div>
+     <div style="padding:10px;padding-left:325px">
+      <label for="Month">Month : </label>
+      <input type="text" id="Month" name="Month">
+     </div>
+     <div style="padding:10px; text-align: center">
+     <button type="submit" class="btn btn-primary">Predict</button>
+     </div>
+    
+   </form>
+  </div>
+ </body>
+</html>
