@@ -3,7 +3,7 @@ Using Historical Maritime Vessel Records to Predict the Weather
 
 For centuries, the crews of ocean-going vessels have maintained essential records onboard known as logbooks. Typically, one of the officers enters a "noon report" each day at noon local time. This entry includes vital information such as the ship's position, course, speed, weather and ocean current conditions, and any special remarks.
 
-Using historical data obtained from maritime vessel logbooks, I built a model that predicts weather patterns via a Neural Network.
+Using historical data obtained from maritime vessel logbooks, I built a model that predicts weather conditions via a Neural Network.
 
 To create my model, I used data from the Climatological Database for the World's Oceans. This data contains over 280,000 noon reports from 1750-1850. Further information can be found at the following link: http://webs.ucm.es/info/cliwoc/
 
